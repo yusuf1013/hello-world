@@ -1,0 +1,49 @@
+
+
+body{
+		background-image: url("quo\yusuf\ank.jpg");
+		background-repeat: no-repeat;
+		background-size: 100%;
+	font-family:arial;
+	font-size:15px;
+	line-height:1.5em;
+	background:#f4f4f4;
+}
+#container{
+	background:#333333;
+	margin:50px auto;
+	overflow:auto;
+	width:60%;
+	min-height:630px;
+}
+header h1{
+	color:#f4f4f4;
+	font-size:22px;
+	padding:15px 0px 10px 10px;
+	border-bottom:1px solid #f4f4f4;
+}
+#shouts{
+	width:90%;
+	background:#f4f4f4;
+	height:400px;
+	margin:20px auto;
+	overflow:auto;
+}
+.shout{
+	list-style:none;
+	padding:8px;
+border-bottom:1px #cccccc dotted;
+}
+#input .shout-btn{
+	padding:5px;
+	margin-bottom:30px;
+	width:100%;
+	margin:10px auto;
+	
+}
+#erro{
+	background-color:red;
+	text-align:center;
+	color:white;
+
+	}

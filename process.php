@@ -4,11 +4,12 @@ include "Database.php";
 <?php
 //check if form have been submit
 if(isset($_POST["submit"])){
+	//the mysqli is use for security
 	$user1=mysqli_real_escape_string($con,$_POST["user"]);
 	$message1=mysqli_real_escape_string($con,$_POST["message"]);
     $user=ucfirst ($user1);
     $message=ucfirst($message1);
-//set timezone
+//set timezone 
 date_default_timezone_set("Turkey"/"Ankara");
 $time=date("h",time());
 
